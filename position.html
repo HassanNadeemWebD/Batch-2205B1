@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Positions</title>
+  </head>
+  <style>
+    body{
+        /* height: 2000px; */
+        background-image: url(jason-leung-poI7DelFiVA-unsplash.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+
+    }
+    .square {
+      /* position: relative; */
+      border: 2px solid red;
+      height: 150px;
+
+      width: 150px;
+      /* margin-top: 150px; */
+      display: inline-block;
+      text-align: center;
+      /* margin: auto; */
+      padding: 50px;
+      color: aliceblue;
+    }
+    #chat {
+        
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        height: 20px;
+        padding: 0;
+
+      
+     
+    }
+    .container {
+        border: 5px solid rebeccapurple;
+      /* border-width: 5px;
+      border-style: solid;
+      border-color: black; */
+    }
+    #div4{
+        position: sticky;
+        top: 0;
+     
+        left: 200px;
+
+    }
+  </style>
+
+  <body>
+
+      <div class="square">1</div>
+      <div class="square">2</div>
+      <div class="square" id="chat">Chat</div>
+      <div class="square" id="div4">4</div>
+     
+
+  </body>
+</html>

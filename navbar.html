@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navbar</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <style>
+    * {
+      margin: 0;
+      /* padding: 0; */
+    }
+    #navbar {
+      border: 2px solid black;
+      background-color: blue;
+      text-align: center;
+      height: 50px;
+    }
+    .nav-links {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: larger;
+      padding: 5px;
+    }
+    ul {
+      list-style: none;
+      margin-top: 15px;
+    }
+    .nav_items {
+      display: inline;
+      /* margin-left: 50px;
+       */
+      padding: 15px;
+      /* background-color: aqua; */
+    }
+    .nav-links:hover {
+      background-color: bisque;
+      color: black;
+
+      border-radius: 5px;
+    }
+    p::first-line{
+        font-size: 50PX;
+        font-family: cursive;
+        font-weight: bolder;
+        color: brown;
+    }
+  </style>
+  <body>
+    <div id="navbar">
+      <ul>
+        <li class="nav_items">
+          <a class="nav-links" href="index.html">Home</a>
+        </li>
+        <li class="nav_items"><a class="nav-links" href="#About">About</a></li>
+        <li class="nav_items">
+          <a class="nav-links" href="#Services">Services</a>
+        </li>
+        <li class="nav_items">
+          <a class="nav-links" href="#Contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+
+    <div>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum,
+        perspiciatis eos! Ea deserunt ex excepturi ut consequuntur dicta atque,
+        illum non enim recusandae obcaecati fuga iure quaerat minus praesentium?
+        Minima.
+      </p>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum,
+        perspiciatis eos! Ea deserunt ex excepturi ut consequuntur dicta atque,
+        illum non enim recusandae obcaecati fuga iure quaerat minus praesentium?
+        Minima.
+      </p>
+    </div>
+  </body>
+</html>

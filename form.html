@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+  </head>
+  <style>
+    .inputField {
+      border: 2px solid black;
+      height: 25px;
+      width: 180px;
+      margin: 5px 50px;
+    }
+  </style>
+  <body>
+    <h1>Registration Form</h1>
+    <form action="position.html">
+      <fieldset>
+        <legend><h1>Aptech</h1></legend>
+        <div>
+          <label for="fname"> First Name: </label
+          ><input
+            class="inputField"
+            type="text"
+            id="fname"
+            minlength="3"
+            required
+            placeholder="First Name"
+          />
+        </div>
+        <div>
+          <label for="lname"> Last Name:</label>
+          <input class="inputField" type="text" id="lname" /><br />
+        </div>
+        <div>
+        Contact:
+        <input class="inputField" maxlength="11" type="tel" id="contact" /> </div>
+        <div>
+        Email: <input class="inputField" type="email" id="uemail" /></div>
+        <div>
+        Password: <input class="inputField" type="password" id="upassword" />
+    </div>
+        Gender: <br />
+        <input type="radio" name="gender" id="male" /><label for="male"> Male </label>
+        <input type="radio" name="gender" id="female" /> <label for="female"> Female </label><br>
+
+        <button type="submit">Submit</button>
+      </fieldset>
+    </form>
+  </body>
+</html>
