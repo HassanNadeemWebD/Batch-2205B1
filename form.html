@@ -11,12 +11,33 @@
       border: 2px solid black;
       height: 25px;
       width: 180px;
-      margin: 5px 50px;
+      /* margin: 5px 50px; */
+    }
+    td {
+      padding: 5px;
+    }
+    legend {
+      color: rgb(199, 135, 39);
+      font-size: 200%;
+      font-weight: bolder;
+      font-style: italic;
+      text-align: center;
+    }
+    button {
+      color: black;
+      font-style: italic;
+      font-weight: bolder;
+      padding: 10px;
+      border-radius: 10px;
+      width: 10%;
+      background-color: rgb(200, 168, 230);
+      cursor: pointer;
+      margin-left: 5px;
     }
   </style>
   <body>
-    <h1>Registration Form</h1>
-    <form action="position.html">
+    <!-- <h1>Registration Form</h1> -->
+    <!-- <form action="position.html">
       <fieldset>
         <legend><h1>Aptech</h1></legend>
         <div>
@@ -47,6 +68,90 @@
         <input type="radio" name="gender" id="female" /> <label for="female"> Female </label><br>
 
         <button type="submit">Submit</button>
+      </fieldset>
+    </form> -->
+
+    <form action="">
+      <fieldset>
+        <legend>Registration Form</legend>
+        <table>
+          <tr>
+            <td>Name:</td>
+            <td>
+              <input
+                class="inputField"
+                type="text"
+                name="fname"
+                maxlength="8"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>Contact:</td>
+            <td>
+              <input
+                class="inputField"
+                type="tel"
+                name="contact"
+                maxlength="8"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>Contact:</td>
+            <td>
+              <input
+                class="inputField"
+                type="tel"
+                name="contact"
+                maxlength="8"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>Email</td>
+            <td>
+              <input class="inputField" type="email" />
+            </td>
+          </tr>
+          <tr>
+            <td>Country</td>
+            <td>
+              <select class="inputField" name="country" id="">
+                <option value="Pakistan">Pakistan</option>
+                <option value="India">India</option>
+                <option value="Malaysia">Malaysia</option>
+                <option value="Japan">Japan</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>Select your Habbits</td>
+            <td>
+              <input type="checkbox" name="habbits" value="Cricket" />Cricket
+              <br /><input
+                type="checkbox"
+                name="habbits"
+                value="Football"
+              />Football <br /><input
+                type="checkbox"
+                name="habbits"
+                value="Basketball"
+              />Basketball
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="img">Select image:</label>
+            </td>
+            <td>
+              <input type="file" id="img" name="img" accept="image"  />
+            </td>
+          </tr>
+        </table>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+        <!-- <input type="button" value="Submit" > -->
       </fieldset>
     </form>
   </body>
