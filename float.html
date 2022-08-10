@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    .container {
+      border: 3px solid black;
+      width: 50%;
+      margin: auto;
+    }
+    .items {
+      border: 2px solid blue;
+      margin: 5px;
+      width: 48%;
+    }
+    #para1 {
+      float: left;
+    }
+    #para2 {
+      float: right;
+    }
+    #para3 {
+      clear: both;
+    }
+    .Thumbnail {
+      border: 5px solid black;
+      width: 20%;
+      height: 20%;
+      margin: 50px  auto;
+      
+    }
+   img {
+      width: 100%;
+      height: 100%;
+      border: 2px solid red;
+      transition: 2s  ease-in ;
+      /* transition: 2ms  ease-out ; */
+
+    }
+    img:hover{
+        border: 5px solid aqua;
+    transform: scale(1.1)  ;
+    }
+  </style>
+
+  <body>
+    <div class="container">
+      <div class="items" id="para1">
+        <p>
+          para1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
+          iure asperiores optio distinctio voluptatibus eligendi nemo voluptates
+          commodi. Aliquid ipsa rem, modi dolorum ipsam quasi fuga laboriosam
+          praesentium veniam esse exercitationem at!
+        </p>
+      </div>
+      <div class="items" id="para2">
+        <p>
+          para2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
+          iure asperiores optio distinctio voluptatibus eligendi nemo voluptates
+          commodi. Aliquid ipsa rem, modi dolorum ipsam quasi fuga laboriosam
+          praesentium veniam esse exercitationem at!
+        </p>
+      </div>
+      <div class="items" id="para3">
+        <p>
+          para3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
+          iure asperiores optio distinctio voluptatibus eligendi nemo voluptates
+          commodi. Aliquid ipsa rem, modi dolorum ipsam quasi fuga laboriosam
+          praesentium veniam esse exercitationem at!
+        </p>
+      </div>
+    </div>
+    <h1 style="text-align:center ;">Thumbnail</h1>
+    <div class="Thumbnail">
+      
+      
+        <img src="jason-leung-poI7DelFiVA-unsplash.jpg" alt="" />
+
+    </div>
+  </body>
+</html>
