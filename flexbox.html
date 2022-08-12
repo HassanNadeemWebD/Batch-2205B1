@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flexbox</title>
+  </head>
+
+  <style>
+    .flexbox-container {
+      display: flex;
+
+      border: 5px solid red;
+      background-color: aqua;
+      height: 800px;
+      overflow:auto;
+      /* flex-direction: row-reverse; */
+      /* justify-content: center; */
+      /* justify-content: space-around; */
+      /* justify-content: flex-left; */
+
+      /* flex-wrap: wrap; */
+      /* flex-flow: row  wrap-reverse; */
+      /* align-items: center   ;
+      justify-content: center; */
+      /* align-items:stretch; */
+      /* align-content:flex-end; */
+      /* align-items: flex-end; */
+
+
+    }
+    .flex-items {
+      border: 2px solid black;
+      background-color: rgb(61, 43, 43);
+      width: 150px;
+      height: 150px;
+      margin: 10px;
+      color: aliceblue;
+      text-align: center;
+
+    }
+  </style>
+
+  <body>
+    <div class="flexbox-container">
+      <div class="flex-items" style="order:2;" ><h2>1</h2></div>
+      <div class="flex-items" style="order:1;"><h2>2</h2></div>
+      <div class="flex-items" style="order:4;"><h2>3</h2></div>
+      <div class="flex-items" style="order:3;"><h2>4</h2></div>
+      <!-- <div class="flex-items"><h2>5</h2></div>
+      <div class="flex-items"><h2>6</h2></div>
+      <div class="flex-items"><h2>7</h2></div>
+      <div class="flex-items"><h2>8</h2></div>
+      <div class="flex-items"><h2>9</h2></div>
+      <div class="flex-items"><h2>10</h2></div>
+      <div class="flex-items"><h2>11</h2></div>
+      <div class="flex-items"><h2>12</h2></div> -->
+      
+    </div>
+  </body>
+</html>
