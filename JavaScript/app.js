@@ -23,47 +23,55 @@
 
 // var a = 5;
 // console.log(a);
-let a = 5;
-console.log(a);
-a = 10;
-console.log(a)
-a = 9;
-console.log(a);
+// let a;
+
+// console.log(a);
+// a = 10; 
+// console.log(a)
+// a = 9;
+// console.log(a);
 {
   let a = 6;
+  a= 10;
   console.log(a);
 }
 
 // let a = 5; 
 
-const age = 18;
+const age = "null";
+console.log(typeof z)
 
-console.log(age);
+console.log(typeof age);
+
+// console.log(age);
 
 // const gravity = 9.8;   
 // gravity = 10;    // error
 // console.log(gravity)  
 
-// let num1 = 6;
-// let num2 = 14;
-// let res = num2 % num1;
-// console.log(res);
+
+let num1 = 6;
+let num2 = 14;
+//         14 % 6
+let res = num2 % num1;
+console.log(res);
 
 let i = 1 ;
 // console.log("example of pre-increment" + " " + ++i);
 // console.log("example of post-increment" + " " + i++);
 // console.log(i);
 
-// let ans = ++i + i++ + --i + i-- + i++ + i++ + ++i + --i;
+let ans = ++i + i++ + --i + i-- + i++ + i++ + ++i + --i;
+//          2 + 2   +  2  + 2   + 1    + 2  + 4   +  3
 
-//         2   + 2  + 2 + 2 + 1 + 1 + 2 + 3  +2 + 1 
+//         2   + 2   + 2  + 2    + 1  + 1    + 2   + 3  +2 + 1 
 
-let test = i-- + ++i - i++ + --i + ++i + i++ + i-- + ++i + ++i + --i + i--; 
+// let test = i-- + ++i - i++ + --i + ++i + i++ + i-- + ++i + ++i + --i + i--; 
 
 //         1    +  1  - 1   +  1  +  2  +  2  + 3   + 3   + 4   +  3  + 3
 
-// console.log(ans);
-console.log(test)
+console.log(ans);
+// console.log(test)
 
 
 
