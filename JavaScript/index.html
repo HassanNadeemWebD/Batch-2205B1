@@ -6,19 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- <script src="app.js"></script>
     <script src="script.js"></script> -->
-    <script src="function.js"></script>
+    <!-- <script src="function.js"></script> -->
+    <!-- <script src="loops.js"></script> -->
+    <script src="dom.js"></script>
     <title>Script</title>
 </head>
 <style>
-    #num{
+    /* #num{
         color: green;
-    }
+    } */
 </style>
 <body>
 
-    <h1 id="welcome"> Click to Login   </h1>
+    <!-- <h1 id="welcome"> Click to Login   </h1>
     <button  onclick="myfunc()">Login</button>
-    <h2 id="num" > Hello</h2>
+    <h2 id="num" > Hello</h2> -->
+    <h1 id="heading" >DOM MANUPULATION</h1>
+    <h1 id="heading" onmouseenter="change()">DOM MANUPULATION</h1>
+    <input type="number" class="inputField" id="num1">
+    <input type="number" class="inputField" id="num2">
+    <button onclick="add()" >SUM</button>
 
     
 </body>
