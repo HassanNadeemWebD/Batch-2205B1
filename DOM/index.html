@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Document</title>
-</head>
+    <link rel="stylesheet" href="style.css">
+  </head>
 
-<body>
+  <body>
     <!-- <h1 onclick="display()"  id="heading"> Login Page </h1> -->
     <!-- <div id="paraDiv" style="display: none;" >
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore labore nobis rem sapiente natus nisi quidem
@@ -20,21 +20,15 @@
 
 </div> -->
 
-
     <form action="">
+      <input type="text" name="fname" id="name" placeholder="Name" />
+      <input type="email" name="email" id="email" placeholder="Email" />
+      <input type="password" name="pass" id="password" placeholder="Password" />
+      <input type="checkbox" onclick="showPass()" >
 
-
-
-        <input type="text" name="fname" id="name" placeholder="Name">
-        <input type="email" name="email" id="email" placeholder="Email">
-        <input type="password" name="pass" id="password" placeholder="Password">
-
-
-        <button onclick="login()">Submit</button>
-
-
+      <button onclick="login()">Submit</button>
     </form>
-    <br>
+    <!-- <br>
     <table  id="table" style="display: none;" border="1">
         <tr>
             <td>Name</td>
@@ -46,10 +40,16 @@
             <td id="e"></td>
             <td id="p"></td>
         </tr>
-    </table>
+    </table> -->
+    <div id="modal">
+      <h1 class="form" >Form Submitted</h1>
+    </div>
+    <button class="button"  onmouseenter="show()" >Login</button>
 
+
+
+    
 
     <script src="app.js"></script>
-</body>
-
+  </body>
 </html>

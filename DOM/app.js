@@ -1,5 +1,6 @@
 // console.log(document.body.innerHTML);
 function login(){
+    // document.getElementById("modal").style.display = "block";
 
 let name = document.getElementById("name").value;
 let email = document.getElementById("email").value;
@@ -26,7 +27,7 @@ console.log(myName);
 
 }
 
-document.getElementById("table").style.display = "block";
+// document.getElementById("table").style.display = "block";
 
     console.log( localStorage.getItem("Name"));
 
@@ -50,3 +51,55 @@ document.getElementById("table").style.display = "block";
 // }
 
 // console.log(document.getElementById("name"));
+
+
+function show(){
+
+let modal = document.getElementById("modal");
+// console.log(modal)
+modal.classList.toggle("modal");
+
+
+
+
+
+// `if(document.getElementById("modal").style.display == "none")
+// {
+//     // document.querySelector(".button").style.display ="none";
+//     document.getElementById("modal").style.display = "block";
+// }
+
+// else{
+//     document.getElementById("modal").style.display = "none"
+// }`
+
+}
+
+// function showPass(){
+
+// let passField = document.getElementById("password");
+// // console.log(passField);
+
+
+
+// // passField.setAttribute("type" , "text")
+// if(passField.setAttribute("type" , "password"))
+// {
+
+//     passField.setAttribute("type" , "text");
+// }
+// else
+// {
+//     passField.setAttribute("type" , "password")
+// }
+
+
+// }
+function showPass() {
+    var x = document.getElementById("password");
+    if (x.type === "password") {
+      x.type = "text";
+    } else {
+      x.type = "password";
+    }
+  }

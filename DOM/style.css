@@ -1,0 +1,30 @@
+div{
+    border: 1px solid black;
+    height: 250px;
+width: 250px;
+margin: auto;
+text-align: center;
+margin-top: 50px;
+box-sizing: border-box;
+padding-top:50px ;
+box-shadow: -3px 4px 20px green;
+background-color: antiquewhite;
+/* display: none; */
+
+
+
+}
+.form{
+color: green;
+
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.modal{
+    background-color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    color: blueviolet;
+    border: 10px solid red;
+z-index: 3;
+}
