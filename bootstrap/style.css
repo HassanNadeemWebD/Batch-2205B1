@@ -1,0 +1,10 @@
+/* .card-body{
+
+
+text-align: center;
+
+} */
+.my-flex{
+    display: flex;
+    flex-wrap: wrap;
+}
