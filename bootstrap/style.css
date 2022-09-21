@@ -5,6 +5,20 @@ text-align: center;
 
 } */
 .my-flex{
-    display: flex;
+    display: flex !important;
     flex-wrap: wrap;
 }
+
+/* .nav-item{
+    align-self: flex-end;
+} */
+.alert {
+    margin-bottom: 0px;
+    padding: 5px;
+  }
+  .btn-block{
+    display: block;
+    margin: auto;
+    width: 40%;
+    margin-bottom: 15px;
+  }
