@@ -11,13 +11,13 @@ $(document).ready(function () {
 
     $("#slider").click(function () {
 
-        // $(".para").slideDown(2000 , function(){
+        $(".para").slideDown(2000 , function(){
 
-        //     $(".para").addClass('bg-warning');
+            $(".para").addClass('bg-warning');
 
 
 
-        // })
+        })
         // $(".para").slideToggle(2000, function () {
 
         //     $(".para").addClass('bg-warning');
@@ -25,14 +25,15 @@ $(document).ready(function () {
 
 
         // })
-        $(".para").fadeToggle(4000, function () {
+        // $(".para").fadeToggle(4000, function () {
 
-            $(".para").addClass('bg-warning');
+        //     $(".para").addClass('bg-warning');
 
 
 
-        })
+        // })
 
+      
 
 
 
