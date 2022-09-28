@@ -25,12 +25,12 @@ $(document).ready(function () {
 
 
         // })
-        $(".para").fadeToggle(4000 , function(){
+        $(".para").fadeToggle(4000, function () {
 
             $(".para").addClass('bg-warning');
-    
-    
-    
+
+
+
         })
 
 
