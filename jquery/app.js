@@ -1,4 +1,9 @@
+
+
+
+
 $(document).ready(function () {
+    
 
     $("#hideButton").click(function () {
         // hide()   show()
@@ -39,8 +44,20 @@ $(document).ready(function () {
 
     });
 
+$(".load").click(function () { 
+    // e.preventDefault();
+
+    $("#content").load("content.txt")
+    
+});
+
+$(function() {
+    $( "#accordion" ).accordion();
+ });
 
 
 });
+
+
 
 
