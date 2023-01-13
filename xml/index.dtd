@@ -1,0 +1,17 @@
+ <!ELEMENT Emails (A:Email , B:Email)>
+    <!ELEMENT A:Email ( A:To, A:From , A:Subject , A:Body)>
+    <!ELEMENT A:To (#PCDATA)>
+    <!ELEMENT A:From (#PCDATA)>
+    <!ELEMENT A:Subject (#PCDATA)>
+    <!ELEMENT A:Body (#PCDATA)>
+
+
+    <!ELEMENT B:Email ( B:To, B:From , B:Subject , B:Body)>
+    <!ELEMENT B:To (#PCDATA)>
+    <!ELEMENT B:From (#PCDATA)>
+    <!ELEMENT B:Subject (#PCDATA)>
+    <!ELEMENT B:Body (#PCDATA)>
+
+    <!ATTLIST Emails xmlns:A CDATA #REQUIRED>
+    <!ATTLIST Emails xmlns:B CDATA #REQUIRED>
+    <!ATTLIST A:Email month (Jan|Feb|Mar|Apr) "Jan" >

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Prolog  -->
+
+<?xml-model href="index.dtd" type="application/xml-dtd"?>
+<!DOCTYPE Emails [
+   
+    <!ENTITY gm "Good Morning Karachi ! ">
+]>
+
+
+<Emails xmlns:A='@' xmlns:B="@">
+    <A:Email month="Jan">
+
+        <A:To>ausaf@gmail.com</A:To>
+        <A:From>zain@gmail.com</A:From>
+        <A:Subject>Class Off</A:Subject>
+        <A:Body> &gm; </A:Body>
+
+
+    </A:Email>
+    <B:Email>
+
+
+        <B:To>uzair@gmail.com</B:To>
+        <B:From>saif@gmail.com</B:From>
+        <B:Subject>Class Off</B:Subject>
+        <B:Body> &gm; </B:Body>
+
+    </B:Email>
+</Emails>
