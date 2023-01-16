@@ -1,0 +1,17 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="Emails">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="email">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element type="xs:string" name="to" />
+                            <xs:element type="xs:string" name="from" />
+                            <xs:element type="xs:string" name="body" />
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
