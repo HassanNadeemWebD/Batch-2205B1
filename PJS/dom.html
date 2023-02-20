@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    .spanTxt {
+      color: rgb(148, 186, 34);
+      background-color: rgb(226, 244, 27);
+    }
+    .img {
+      width: 100%;
+      height: 100vh;
+    }
+  </style>
+  <body>
+    <input type="number" id="num1" />
+    <input type="number" id="num2" />
+    <button id="addBtn">Add</button>
+
+    <h2 id="res" style="display:none ;">Result:</h2>
+    <h1 id="heading">
+      2207B1 <span onclick="addClass()">DOM Manipulation</span>
+    </h1>
+    <p class="para">
+      Para 1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga
+      consequuntur rem facere eius, ipsam alias, sed beatae unde reprehenderit
+      minus iste, incidunt voluptate quas necessitatibus minima quaerat possimus
+      veritatis aliquam?
+    </p>
+    <p class="para">
+      Para 2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga
+      consequuntur rem facere eius, ipsam alias, sed beatae unde reprehenderit
+      minus iste, incidunt voluptate quas necessitatibus minima quaerat possimus
+      veritatis aliquam?
+    </p>
+    <p class="para">
+      Para 3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga
+      consequuntur rem facere eius, ipsam alias, sed beatae unde reprehenderit
+      minus iste, incidunt voluptate quas necessitatibus minima quaerat possimus
+      veritatis aliquam?
+    </p>
+
+    <img
+      id="aptech"
+      class="img"
+      src="https://aptech-education.com.pk/images/02-01.jpg"
+    />
+    <button onclick="showImg()">show image</button>
+    <script src="dom.js"></script>
+  </body>
+</html>

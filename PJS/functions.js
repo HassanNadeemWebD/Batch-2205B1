@@ -112,7 +112,7 @@ function FatherDetails(fatherName, fatherContact, fatherOccup, fatherFiler) {
   this.contact = fatherContact;
   this.occupation = fatherOccup;
   this.Filer = fatherFiler;
-  // this.debitCards= ["BAHL", "HBL", "MBL", "NBP", "MCB"],
+  // this.debitCards= [debit1 ,debit2],
 }
 
 let newObj = new StudentInfo(
